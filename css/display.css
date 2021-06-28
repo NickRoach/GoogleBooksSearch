@@ -7,10 +7,39 @@ body {
 }
 .header__title {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 60px;
   color: #39b54a;
   text-decoration: underline;
   text-decoration-color: #f3b605;
+}
+@media only screen and (max-width: 576px) {
+  .header__title {
+    font-size: 35px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .header__title {
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .header__title {
+    font-size: 60px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .header__title {
+    font-size: 60px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+  .header__title {
+    font-size: 60px;
+  }
+}
+@media only screen and (min-width: 1501px) {
+  .header__title {
+    font-size: 60px;
+  }
 }
 .header__intro {
   font-family: Arial, Helvetica, sans-serif;
@@ -23,32 +52,32 @@ body {
 }
 @media only screen and (max-width: 576px) {
   .mainImage {
-    width: 200px;
+    width: 150px;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
   .mainImage {
-    width: 200px;
+    width: 150px;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .mainImage {
-    width: 300px;
+    width: 150px;
   }
 }
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
   .mainImage {
-    width: 300px;
+    width: 200px;
   }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1500px) {
   .mainImage {
-    width: 300px;
+    width: 200px;
   }
 }
 @media only screen and (min-width: 1501px) {
   .mainImage {
-    width: 300px;
+    width: 200px;
   }
 }
 
