@@ -1,7 +1,4 @@
 export const getBooks = async (searchString) => {
-    if (!searchString) {
-        alert("Please enter a search string");
-    }
     const responsePromise = fetch(
         `https://www.googleapis.com/books/v1/volumes?q=${searchString}&maxResults=39`
     );

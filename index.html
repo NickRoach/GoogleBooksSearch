@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="css/display.css" />
+        <link rel="stylesheet" href="css/styles.css" />
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,11 +23,11 @@
                     your search terms in the box below and press search
                 </h4>
                 <form id="searchForm">
-                    <input id="searchInput" type="text" />
-                    <button class="button">Search</button>
+                    <input id="searchInput" type="text" autocomplete="off" />
+                    <button id="searchButton">Search</button>
                 </form>
             </header>
-
+            <div id="errorDisplay"></div>
             <div id="display"></div>
         </body>
         <script type="module" src="./scripts/dom.js"></script>
