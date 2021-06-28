@@ -82,7 +82,7 @@ body {
 }
 
 #searchForm {
-  margin: 25px;
+  align-items: center;
   white-space: nowrap;
 }
 
@@ -94,6 +94,36 @@ body {
   padding: 10px;
   margin: 0;
   border-width: 1px;
+}
+@media only screen and (max-width: 576px) {
+  #searchInput {
+    width: 40vw;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  #searchInput {
+    width: 60vw;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  #searchInput {
+    width: 60vw;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  #searchInput {
+    width: 60vw;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+  #searchInput {
+    width: 60vw;
+  }
+}
+@media only screen and (min-width: 1501px) {
+  #searchInput {
+    width: 60vw;
+  }
 }
 #searchInput:focus {
   outline-width: 0;

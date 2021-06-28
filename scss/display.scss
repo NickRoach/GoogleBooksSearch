@@ -72,7 +72,7 @@ body {
 }
 
 #searchForm {
-    margin: 25px;
+    align-items: center;
     white-space: nowrap;
 }
 
@@ -84,6 +84,31 @@ body {
     padding: 10px;
     margin: 0;
     border-width: 1px;
+
+    @include devices.phone {
+        width: 40vw;
+    }
+
+    @include devices.tablet {
+        width: 60vw;
+    }
+
+    @include devices.tablet-landscape {
+        width: 60vw;
+    }
+
+    @include devices.laptop {
+        width: 60vw;
+    }
+
+    @include devices.monitor {
+        width: 60vw;
+    }
+
+    @include devices.XLmonitor {
+        width: 60vw;
+    }
+
     &:focus {
         outline-width: 0;
     }
